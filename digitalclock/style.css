@@ -29,9 +29,12 @@ h1{
 
 span{
 	background-color: blue;
+	opacity: 0.55;
 	width: 100px;
 	height: 80px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-size: 50px;
+	text-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
 }
