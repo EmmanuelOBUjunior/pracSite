@@ -39,4 +39,11 @@ span{
 	text-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.4);
 }
 
-
+.text{
+	font-size: 15px;
+	text-transform: uppercase;
+	height: 40px;
+	background-color: red;
+	opacity: 0.5;
+	width: 100px;
+}
