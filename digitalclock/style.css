@@ -15,8 +15,6 @@ body{
 
 .clock{
 	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 h1{
@@ -25,8 +23,15 @@ h1{
 	letter-spacing: 4px;
 }
 
+.clock div{
+	margin: 5px
+}
+
 span{
 	background-color: blue;
+	width: 100px;
+	height: 80px;
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
