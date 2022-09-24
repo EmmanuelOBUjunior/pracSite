@@ -28,12 +28,12 @@ scoreEl.innerText = `Score: ${score}`
 formEL.addEventListener("submit", (e)=>{
 	const userAns = +inputEl.value;
 	if(userAns ===	correctAns){
-		score++
-		storeScore
+		score++;
+		storeScore();
 	}
 	else{
-		score--
-		storeScore
+		score--;
+		storeScore();
 	}
 })
 
