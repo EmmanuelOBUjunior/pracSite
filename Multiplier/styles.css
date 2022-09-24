@@ -20,6 +20,8 @@ body{
 	font-size: 30px;
 	display: block;
 	width: 100%;
+	outline: none;
+	color: blue;
 	box-sizing: border-box;
 	border: solid 4px blue;
 	text-align: center;
@@ -28,5 +30,9 @@ body{
 
 .input::placeholder{
 	color: lightgray;
+	font-family: cursive;
+}
+
+.btn{
 	font-family: cursive;
 }
