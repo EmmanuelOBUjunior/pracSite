@@ -10,6 +10,7 @@ body{
 	background-color: #F9B3D1;
 	padding: 20px 40px;
 	font-family: sans-serif;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 	text-decoration: none;
 	color: black;
 	border-radius: 5px;
@@ -23,15 +24,16 @@ body{
 
 .btn::before{
 	content: "";
+	position:absolute;
 	background-color: #624763;
 	height:20px;
 	width: 20px;
 	top: 50%;
 	left: 50%;
-	position:absolute;
 	transform: translate(-50%, -50%);
 }
 
 .btn::before:hover{
 	width: 300px;
+	height: 300px;
 }
