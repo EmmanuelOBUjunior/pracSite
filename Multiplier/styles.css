@@ -35,4 +35,15 @@ body{
 
 .btn{
 	font-family: cursive;
+	font-size: 25px;
+	display: block;
+	width:100%;
+	margin: 20px 0;
+	padding: 10px;
+	cursor: pointer;
+	background-color: blue;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
 }
