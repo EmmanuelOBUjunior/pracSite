@@ -16,6 +16,11 @@ body{
 	position: relative;
 }
 
+.btn span{
+	position: relative;
+	z-index: 1;
+}
+
 .btn::before{
 	content: "";
 	background-color: #624763;
