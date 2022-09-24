@@ -23,6 +23,10 @@ body{
 	z-index: 1;
 }
 
+.btn span:hover{
+	color: white;
+}
+
 .btn::before{
 	content: "";
 	position:absolute;
