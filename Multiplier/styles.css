@@ -25,3 +25,8 @@ body{
 	text-align: center;
 	padding: 10px;
 }
+
+.input::placeholder{
+	color: lightgray;
+	font-family: cursive;
+}
