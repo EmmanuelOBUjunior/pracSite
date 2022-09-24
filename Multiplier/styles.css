@@ -20,5 +20,8 @@ body{
 	font-size: 30px;
 	display: block;
 	width: 100%;
-
+	box-sizing: border-box;
+	border: solid 4px blue;
+	text-align: center;
+	padding: 10px;
 }
