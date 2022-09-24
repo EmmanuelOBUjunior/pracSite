@@ -49,6 +49,7 @@ body{
 }
 
 .btn:hover{
+	transition: ease-out 0.5s;
 	filter: brightness(0.9);
 }
 
