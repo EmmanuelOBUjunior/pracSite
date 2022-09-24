@@ -53,3 +53,8 @@ body{
 	filter: brightness(0.9);
 }
 
+.score{
+	text-align: right;
+	color: green;
+}
+
