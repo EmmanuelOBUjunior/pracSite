@@ -23,7 +23,8 @@ body{
 	z-index: 1;
 }
 
-.btn span:hover{
+.btn:hover{
+	transition: ease-in-out 3s;
 	color: white;
 }
 
