@@ -1,8 +1,11 @@
 //Generating random numbers
 const num1 = Math.floor(Math.random() * 10);
 const num2 = Math.floor(Math.random() * 10);
+
+
 //Calculating the answer
 const correctAns = num1 * num2;
+console.log(num1, num2, correctAns);
 
 //Getting elements
 const questionEl = document.getElementById('question');
