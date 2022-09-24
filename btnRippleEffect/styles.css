@@ -44,7 +44,7 @@ body{
 }
 
 .btn:hover::before{
-	transition: ease-in-out .5s;
+	transition: ease-in-out .4s;
 	width: 500px;
 	height: 500px;
 	color: white;
