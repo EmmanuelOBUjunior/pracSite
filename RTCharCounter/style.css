@@ -32,3 +32,7 @@ body{
 	justify-content: space-between;
 	padding: 0 5px;
 }
+
+.counter p{
+	color: gray;
+}
