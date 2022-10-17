@@ -4,3 +4,5 @@ This repository contains a series of html and js projects. Below are the list of
 2. btnRippleEffect: This project was built with HTML, CSS and Vaniila Javascript. The project reveals a ripple effect on a button depend on the position of the mouse pointer on the button.
 3. DigitalClock: This project was built with HTML, CSS and Vanilla Javascript. The project display a real-time digital clock.
 4. ExpenseTracker: This project was built with Reactjs. The project is used to track the expense history of the user.
+5. RTCharCounter: This project was built with HTML, CSS, and Vanilla Javascript. It is a real-time character counter
+6. DragNDrop: This project was built ith HTML, CSS, and Vanilla Javascript. It is a drag and drop feature  
