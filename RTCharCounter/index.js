@@ -7,8 +7,10 @@ textAreaEl.addEventListener("keyup", ()=>{
 	updateCounter();
 })
 
+updateCounter();
+
 function updateCounter() {
 	totalCharEl.innerText = textAreaEl.value.length
-	
+	remCharEl.innerText = textAreaEl.getAttribute('maxlength') - totalCharEl.innerText
 
 }
