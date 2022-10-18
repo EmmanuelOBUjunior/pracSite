@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&display=swap');
 body{
 	margin: 0;
 }
- body a{
+body a{
 	text-decoration: none;
- }
+}
+
+.navbar span{
+	font-family: 'Noto Sans Warang Citi', sans-serif;
+}
 
 .navbar{
 	display: flex;
