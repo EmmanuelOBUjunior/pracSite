@@ -14,4 +14,12 @@ body{
 .navbar ul{
 	display: flex;
 	list-style: none;
+	
+}
+
+.navbar ul li a{
+	margin: 0 10px;
+	color: black;
+	font-family: cursive;
+	
 }
