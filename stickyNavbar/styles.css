@@ -45,6 +45,7 @@ body a{
 	margin: 0 10px;
 	color: black;
 	font-family: cursive;
+	transition: ease-in-out 0.5s;
 }
 
 .navbar a:hover{
