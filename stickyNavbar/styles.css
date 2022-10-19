@@ -32,6 +32,7 @@ body a{
 	align-items: center;
 	justify-content: space-between;
 	background-color: white;
+	transition: ease-in-out 0.5s;
 }
 
 .navbar ul{
@@ -46,6 +47,10 @@ body a{
 	font-family: cursive;
 }
 
+.navbar a:hover{
+	color: red;
+}
+
 .text{
 	margin: 50px 5%;
 	text-align: justify;
@@ -58,6 +63,7 @@ body a{
 
 .navbar.active a {
 	color: white;
+	transition: ease-in-out 0.5s;
 }
 
 .navbar.active a:hover {
