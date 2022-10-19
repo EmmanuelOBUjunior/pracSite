@@ -6,7 +6,6 @@ body a{
 	text-decoration: none;
 }
 
-
 .navbar span{
 	font-family: cursive;
 	color: red;
@@ -69,5 +68,5 @@ body a{
 }
 
 .navbar.active a:hover {
-	color: red;
+	color: goldenrod;
 }
