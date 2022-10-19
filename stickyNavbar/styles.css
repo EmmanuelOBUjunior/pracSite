@@ -56,3 +56,10 @@ body a{
 	background-color: black;
 }
 
+.navbar.active a {
+	color: white;
+}
+
+.navbar.active a:hover {
+	color: red;
+}
