@@ -1,7 +1,18 @@
 body{
 	margin: 0;
+	font-family: cursive;
 }
 
 h1{
 	text-align: center;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.color-container{
+	background-color: orange;
 }
