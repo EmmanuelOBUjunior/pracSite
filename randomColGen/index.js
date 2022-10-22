@@ -1,1 +1,3 @@
-console.log("Hello World")
+const containerEl = document.querySelector(".container")
+
+console.log(containerEl);
