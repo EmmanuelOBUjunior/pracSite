@@ -10,8 +10,9 @@ for (let index = 0; index < 30; index++) {
 const colorContainerEls = document.querySelectorAll('.color-container');
 
 generateColors();
+
 document.addEventListener('keydown', (e) => {
-	e.preventDefault();
+	e.preventDefault(); 
 	if(e.keyCode == 32){
 		generateColors();
 		
