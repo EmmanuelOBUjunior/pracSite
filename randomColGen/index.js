@@ -7,6 +7,8 @@ for (let index = 0; index < 30; index++) {
 	containerEl.appendChild(colorContainer)
 }
 
+generateRandomColors();
+
 function generateRandomColors(){
 	const colorContainerEls = document.querySelectorAll('.color-container');
 	console.log(colorContainerEls)
