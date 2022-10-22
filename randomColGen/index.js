@@ -9,13 +9,13 @@ for (let index = 0; index < 30; index++) {
 }
 const colorContainerEls = document.querySelectorAll('.color-container');
 
-generateRandomColors();
+generateColors();
 
 function generateColors(){
 	colorContainerEls.forEach(colorContainerEl => {
-		const randomColor = randomNumber()
-		colorContainerEl.style.backgroundColor = "#"+ randomColor;
-		console.log(randomColor)
+		const newColor = randomColor()
+		colorContainerEl.style.backgroundColor = "#"+ newColor;
+		console.log(newColor)
 	});
 	
 }
