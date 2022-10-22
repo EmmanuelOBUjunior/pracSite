@@ -13,11 +13,11 @@ randomNumber()
 
 function randomNumber(){
 	const chars = "0123456789abcdef";
-	let colorCode = "";
+	let colorCode = " ";
 
-	for (let index = 0; index < chars.length; index++) {
+	for (let index = 0; index < 6; index++) {
 		const randomNum = Math.floor(Math.random() * chars.length)
-		
-		// console.log(randomNum)	
+		colorCode += chars.substring(randomNum, randomNum + 1);
 	}
+	return colorCode;
 }
