@@ -13,7 +13,7 @@ function randomNumber(){
 	let colorCode = "";
 
 	for (let index = 0; index < chars.length; index++) {
-		const element = array[index];
+		const randomNum = Math.floor(Math.random() * chars.length)
 		
 	}
 }
