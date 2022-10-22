@@ -6,3 +6,14 @@ for (let index = 0; index < 30; index++) {
 
 	containerEl.appendChild(colorContainer)
 }
+
+
+function randomColor(){
+	const chars = "0123456789abcdef";
+	let colorCode = "";
+
+	for (let index = 0; index < chars.length; index++) {
+		const element = array[index];
+		
+	}
+}
