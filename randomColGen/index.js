@@ -7,9 +7,9 @@ for (let index = 0; index < 30; index++) {
 	containerEl.appendChild(colorContainer)
 }
 
+function generateRandomColors(){
 
-
-randomNumber()
+}
 
 function randomNumber(){
 	const chars = "0123456789abcdef";
