@@ -8,7 +8,7 @@ for (let index = 0; index < 30; index++) {
 }
 
 
-function randomColor(){
+function randomNumber(){
 	const chars = "0123456789abcdef";
 	let colorCode = "";
 
