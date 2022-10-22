@@ -17,6 +17,7 @@ function randomNumber(){
 
 	for (let index = 0; index < chars.length; index++) {
 		const randomNum = Math.floor(Math.random() * chars.length)
-		console.log(randomNum)	
+		
+		// console.log(randomNum)	
 	}
 }
