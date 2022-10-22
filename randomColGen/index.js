@@ -16,6 +16,8 @@ function generateColors(){
 		const newColor = randomColor()
 		colorContainerEl.style.backgroundColor = "#"+ newColor;
 		console.log(newColor)
+
+		colorContainerEl.innerText = "#"+newColor;
 	});
 	
 }
