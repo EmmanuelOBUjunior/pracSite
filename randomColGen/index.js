@@ -9,7 +9,12 @@ for (let index = 0; index < 30; index++) {
 }
 const colorContainerEls = document.querySelectorAll('.color-container');
 
-generateColors();
+document.addEventListener('keyup', (e) => {
+	if(e.keyCode == 13){
+		window.location.reload();
+		generateColors();
+	}
+})
 
 function generateColors(){
 	colorContainerEls.forEach(colorContainerEl => {
