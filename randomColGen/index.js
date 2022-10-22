@@ -9,7 +9,7 @@ for (let index = 0; index < 30; index++) {
 
 function generateRandomColors(){
 	const colorContainerEls = document.querySelectorAll('.color-container');
-	console
+	console.log(colorContainerEls)
 }
 
 function randomNumber(){
