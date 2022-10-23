@@ -2,5 +2,6 @@ const bodyEL = document.querySelector("body")
 
 
 bodyEL.addEventListener("mousemove", (event)=>{
-	console.log(event.offsetX)
+	const xPos = event.offsetX
+	const YPos = event.offsetY
 })
