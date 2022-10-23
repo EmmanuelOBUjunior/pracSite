@@ -5,6 +5,8 @@ bodyEl.addEventListener("mousemove", (event)=>{
 	const xPos = event.offsetX
 	const yPos = event.offsetY
 
+	console.log(xPos, yPos);
+
 	const spanEl = document.createElement("span")
 	spanEl.style.top = xPos + "px";
 	spanEl.style.left = yPos + "px";
