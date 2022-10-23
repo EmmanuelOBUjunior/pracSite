@@ -9,4 +9,5 @@ bodyEl.addEventListener("mousemove", (event)=>{
 	spanEl.style.top = xPos + "px";
 	spanEl.style.left = yPos + "px";
 
+	bodyEl.appendChild(spanEl)
 })
