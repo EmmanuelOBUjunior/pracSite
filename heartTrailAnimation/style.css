@@ -26,10 +26,10 @@ span{
 		opacity: 1;
 		filter: hue-rotate(0);
 	}
-	0%{
-		transform: translate(-50%, -50%);
-		opacity: 1;
-		filter: hue-rotate(0);
+	50%{
+		transform: translate(-50%, -2500%);
+		opacity: 0.5;
+		filter: hue-rotate(360deg);
 	}
 	100%{
 		transform: translate(-50%, -5000%);
