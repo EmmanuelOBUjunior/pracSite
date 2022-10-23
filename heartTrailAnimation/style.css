@@ -16,12 +16,18 @@ span{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	animation: heartanimate 6s linear;
 }
 
 
 @keyframes heartanimate {
 	0%{
-		
+		transform: translate(-50%, -50%);
+		opacity: 1;
+	}
+	100%{
+		transform: translate(-50%, -5000%);
+		opacity: 0;
 	}
 	
 }
