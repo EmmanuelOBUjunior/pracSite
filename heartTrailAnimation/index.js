@@ -8,10 +8,13 @@ bodyEl.addEventListener("mousemove", (event)=>{
 	console.log(xPos, yPos);
 
 	const spanEl = document.createElement("span")
+	const size = Math.random() * 100;
+	
 	spanEl.style.top = yPos + "px";
 	spanEl.style.left = xPos + "px";
+	spanEl.style.width = size + "px";
+	spanEl.style.height = size + "px";
 
-	const size = Math.random() * 100; 
 
 	bodyEl.appendChild(spanEl)
 
