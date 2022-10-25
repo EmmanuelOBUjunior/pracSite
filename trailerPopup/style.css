@@ -1,6 +1,10 @@
 body{
 	margin: 0;
 	background-color: black;
+	display: flex;
+	height:100vh;
+	justify-content: center;
+	align-items: center;
 }
 
 .trailer-container{
