@@ -9,11 +9,14 @@ body{
 
 h1{
 	color: white;
+	font-family: sans-serif;
 }
 
 p{
 	color: white;
-	margin: 10px
+	margin: 10px;
+	font-family: sans-serif;
+
 }
 
 .trailer-container{
