@@ -15,8 +15,9 @@ body{
 	font-family: sans-serif;
 }
 
-.main-container img{
+.main-container{
 	max-width: 550px;
+	padding: 10px;
 }
 
 .main-container p{
