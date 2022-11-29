@@ -9,7 +9,7 @@ body{
 	box-sizing: border-box;
 }
 
-h1{
+main-container h1{
 	color: white;
 	font-size: 45px;
 	font-family: sans-serif;
