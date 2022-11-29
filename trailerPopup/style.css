@@ -9,13 +9,17 @@ body{
 	box-sizing: border-box;
 }
 
-main-container h1{
+.main-container h1{
 	color: white;
 	font-size: 45px;
 	font-family: sans-serif;
 }
 
-p{
+.main-container img{
+	max-width: 550px;
+}
+
+.main-container p{
 	color: white;
 	margin: 10px;
 	font-family: sans-serif;
