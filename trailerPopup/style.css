@@ -43,8 +43,22 @@ body{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	align-items: center;
+}
 
+.trailer-container video{
+	position: relative;
+	max-width: 900px;
+}
+
+@media (max-width: 991px){
+	.trailer-container video{
+		max-width: 90%;
+	}
 }
 
 .btn:hover{
