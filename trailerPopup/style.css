@@ -49,6 +49,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: ease-out 0.5s;
 	opacity: 1;
 }
 
