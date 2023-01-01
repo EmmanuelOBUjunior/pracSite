@@ -10,5 +10,5 @@ btnEl.addEventListener("click", ()=>{
 closeBtnEl.addEventListener("click", ()=>{
 	trailerEL.classList.add("active");
 	videoEl.pause();
-
+	videoEl.currentTime = 0;
 })
