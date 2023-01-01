@@ -9,4 +9,6 @@ btnEl.addEventListener("click", ()=>{
 // console.log("Checking")
 closeBtnEl.addEventListener("click", ()=>{
 	trailerEL.classList.add("active");
+	videoEl.pause();
+
 })
