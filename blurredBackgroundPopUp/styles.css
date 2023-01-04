@@ -9,12 +9,13 @@ body{
 	height: 100vh;
 	justify-content: center;
 	background-image: url("https://images.unsplash.com/photo-1598760122223-45f0f18a1bbd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+	background-size: cover;
 }
 
 h1{
 	font-size: 60px;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	color: white;
-	letter-spacing: 2px;
+	letter-spacing: 4px;
 	text-shadow:2px 2px 4px rgba(256,256,256, 0.3);
 }
