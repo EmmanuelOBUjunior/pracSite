@@ -22,5 +22,9 @@ h1{
 }
 
 .btn{
-	
+	width: 200px;
+	padding: 15px 0;
+	background-color: #7698B3;
+	outline: none;
+	border: none;
 }
