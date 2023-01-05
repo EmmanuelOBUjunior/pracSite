@@ -52,7 +52,8 @@ h1{
 	transform: translateX(-50%);
 	height: 200px;
 	padding: 20px;
-	border-radius: 20px;
+	border-radius: 15px;
 	top: 30%;
 	left: 50%
 }
+
