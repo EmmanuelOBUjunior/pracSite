@@ -48,6 +48,7 @@ h1{
 	width: 400px;
 	background-color: white;
 	display: flex;
+	flex-direction: column;
 	transform: translateX(-50%);
 	height: 200px;
 	top: 30%;
