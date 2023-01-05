@@ -46,7 +46,7 @@ h1{
 .popup-container{
 	position: fixed;
 	width: 400px;
-	background-color: white;
+	/* background-color: white; */
 	display: flex;
 	flex-direction: column;
 	transform: translateX(-50%);
