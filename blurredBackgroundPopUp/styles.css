@@ -51,6 +51,7 @@ h1{
 	flex-direction: column;
 	transform: translateX(-50%);
 	height: 200px;
+	padding: 20px;
 	top: 30%;
 	left: 50%
 }
