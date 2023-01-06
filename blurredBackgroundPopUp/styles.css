@@ -80,3 +80,10 @@ label{
 	font-size: 15px;
 }
 
+.close-icon{
+	color: white;
+	position: absolute;
+	top: 30%;
+	right: 50%;
+}
+
