@@ -89,6 +89,8 @@ label{
 	cursor: pointer;
 }
 
+.close
+
 .sign{
 	color: white;
 	margin-top: 15px;
@@ -98,7 +100,7 @@ label{
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-size: 15px;
 	border-radius: 5px;
-	background-color: background: rgb(0,212,255);
+	background-color: rgb(0,212,255);
 	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,107,121,1) 54%, rgba(2,0,36,1) 100%);
 }
 
