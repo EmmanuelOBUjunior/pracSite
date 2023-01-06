@@ -114,3 +114,6 @@ label{
 	cursor: pointer
 }
 
+.active.popup-container{
+	visibility: hidden;
+}
