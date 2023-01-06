@@ -89,7 +89,10 @@ label{
 	cursor: pointer;
 }
 
-.close
+.close-icon:hover{
+	color: #020024;
+	transform: scale(1.25)
+}
 
 .sign{
 	color: white;
