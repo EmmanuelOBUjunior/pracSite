@@ -87,11 +87,12 @@ label{
 	top: 10%;
 	left: 90%;
 	cursor: pointer;
+	transition: ease-out 0.4s;
 }
 
 .close-icon:hover{
 	color: #020024;
-	transform: scale(1.25)
+	transform: scale(1.10)
 }
 
 .sign{
