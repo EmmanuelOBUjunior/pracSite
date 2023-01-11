@@ -58,6 +58,9 @@ h1{
 	top: 30%;
 	left: 50%;
 	box-shadow: 4px 2px 4px rgba(256, 256, 256, 0.2);
+	transition: all .5s ease-in-out;
+	transform-origin: left top;
+	opacity: 1;
 }
 
 h4{
@@ -115,5 +118,5 @@ label{
 }
 
 .active.popup-container{
-	visibility: hidden;
+	opacity: 0;
 }
