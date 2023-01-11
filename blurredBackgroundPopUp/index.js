@@ -8,3 +8,8 @@ btnEl.addEventListener("click", () => {
 	mainContainerEl.classList.add("active");
 	popupContainerEl.classList.remove("active")
 })
+
+closeIconEl.addEventListener("click", ()=>{
+	popupContainerEl.classList.add("active");
+	mainContainerEl.classList.remove("active")
+})
