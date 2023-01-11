@@ -36,7 +36,7 @@ h1{
 
 .btn:hover{
 	filter: brightness(0.8);
-	transform: scale(1.15);
+	transform: scale(1.05);
 }
 
 .active.main-container{
