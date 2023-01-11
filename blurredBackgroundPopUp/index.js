@@ -1,2 +1,3 @@
 const  btnEl = document.querySelector(".btn")
-const popEl = document.querySelector(".popup-container")
+const popupContainerEl = document.querySelector(".popup-container")
+const mainContainerEl = document.querySelector(".main-container")
