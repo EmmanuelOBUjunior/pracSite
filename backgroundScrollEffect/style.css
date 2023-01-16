@@ -27,5 +27,6 @@ h1{
 }
 
 p{
-	color: gray
+	color: gray;
+	text-align: justify;
 }
