@@ -5,3 +5,7 @@ window.addEventListener("scroll", ()=>{
 })
 
 
+function updateBacgroundImage() {
+	bgImageEl.style.opacity = 1 - window.pageXOffset/900;
+}
+
