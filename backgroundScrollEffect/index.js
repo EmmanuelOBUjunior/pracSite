@@ -1,4 +1,4 @@
-const bgImageEl = document.getElementByID("bg-image")
+const bgImageEl = document.getElementById('bg-image');
 
 window.addEventListener("scroll", ()=>{
 	updateBackgroundImage();
