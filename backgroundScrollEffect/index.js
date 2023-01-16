@@ -1,1 +1,1 @@
-console.log("testing")
+const bgImageEl = document.getElementByID("bg-image")
