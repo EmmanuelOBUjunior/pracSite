@@ -1,6 +1,7 @@
 body{
 	margin: 0;
 	background: #14342B;
+	display:flex;
 }
 
 h1{
