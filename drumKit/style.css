@@ -2,6 +2,7 @@ body{
 	margin: 0;
 	background: #14342B;
 	display:flex;
+	flex-direction: column;
 }
 
 h1{
