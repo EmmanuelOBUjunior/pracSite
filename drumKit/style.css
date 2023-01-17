@@ -3,6 +3,7 @@ body{
 	background: #14342B;
 	display:flex;
 	flex-direction: column;
+	align-items: center;
 }
 
 h1{
