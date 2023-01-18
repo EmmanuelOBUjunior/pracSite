@@ -7,6 +7,7 @@ kits.forEach(kit =>{
 	buttonEl.classList.add("btn")
 	containerEl.appendChild(buttonEl)
 	buttonEl.innerText  = kit;
+	buttonEl.style.backgroundImage = "url(images/"+kit+".png)"
 })
 
 
