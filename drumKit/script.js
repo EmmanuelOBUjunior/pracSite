@@ -6,6 +6,7 @@ kits.forEach(kit =>{
 	const buttonEl = document.createElement("button")
 	buttonEl.classList.add("btn")
 	containerEl.appendChild(buttonEl)
+	buttonEl.innerText  = kit;
 })
 
 
