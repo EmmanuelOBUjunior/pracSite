@@ -20,6 +20,10 @@ h1{
 }
 
 .btn{
-	padding: 40px 50px;
+	padding: 40px 40px;
 	font-size: 50px;
+	margin: 10px;
+	height: 180px;
+	width: 220px;
+	text-align: center;
 }
