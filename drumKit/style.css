@@ -29,4 +29,5 @@ h1{
 	font-family: cursive;
 	border: none;
 	background-image: url(./images/tom.png);
+	background-size: cover;
 }
