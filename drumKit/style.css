@@ -28,7 +28,7 @@ h1{
 	text-align: center;
 	font-family: cursive;
 	border: none;
-	background-image: url(./images/tom.png);
+	background-image: url(images/tom.png);
 	background-size: cover;
 	cursor: pointer;
 	border-radius: 10px;
