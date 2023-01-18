@@ -1,1 +1,1 @@
-console.log("wordking")
+const kits = ["crash","kick","snare","tom"]
