@@ -14,3 +14,8 @@ h1{
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	letter-spacing: 4px;
 }
+
+.btn{
+	padding: 20px 30px;
+	font: 30px
+}
