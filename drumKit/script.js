@@ -8,6 +8,7 @@ kits.forEach(kit =>{
 	containerEl.appendChild(buttonEl)
 	buttonEl.innerText  = kit;
 	buttonEl.style.backgroundImage = "url(images/"+kit+".png)"
+	const audioEl = document.createElementn("audio");
 })
 
 
