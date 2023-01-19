@@ -11,8 +11,8 @@ kits.forEach(kit =>{
 	const audioEl = document.createElement("audio");
 	audioEl.src = "sounds/" + kit + ".mp3";
 	containerEl.appendChild(audioEl);
-	buttonEl.addEventListiner("click", ()=>{
-		// console.log(kit);
+	buttonEl.addEventListener("click", ()=>{
+		console.log(kit);
 		audioEl.play()
 	})
 })
