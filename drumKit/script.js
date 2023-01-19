@@ -12,7 +12,6 @@ kits.forEach(kit =>{
 	audioEl.src = "sounds/" + kit + ".mp3";
 	containerEl.appendChild(audioEl);
 	buttonEl.addEventListener("click", ()=>{
-		// console.log(kit);
 		audioEl.play()
 	})
 })
