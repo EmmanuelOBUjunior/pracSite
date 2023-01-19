@@ -10,6 +10,7 @@ kits.forEach(kit =>{
 	buttonEl.style.backgroundImage = "url(images/"+kit+".png)"
 	const audioEl = document.createElement("audio");
 	audioEl.src = "sounds/" + kit + ".mp3";
+	containerEl.appendChild(audioEl);
 })
 
 
