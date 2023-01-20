@@ -28,6 +28,11 @@ h1{
 .btn{
 	margin: 10px;
 	padding: 10px 30px;
+	font-size: 20px;
 	background-color: bisque;
 	border: none;
+}
+
+.btn:hover{
+	opacity: 0.9;
 }
