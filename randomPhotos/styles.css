@@ -19,7 +19,7 @@ h1{
 .image-container img{
 	height: 300px;
 	width: 300px;
-	border-radius: 10px;
+	border-radius: 2px;
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 	background-color: white;
 	margin:10px;
