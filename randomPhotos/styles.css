@@ -5,7 +5,9 @@ body{
 	align-items: center;
 	background-color: #735751;
 }
-
+h1{
+	font-size: 40px;
+}
 .image-container{
 	text-align: center;
 }
