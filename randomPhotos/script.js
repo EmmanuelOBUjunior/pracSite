@@ -3,6 +3,7 @@ const btnEl = document.querySelector(".btn");
 
 btnEl.addEventListener("click", () =>{
 	noOfImages = 10;
+	
 	createImages()
 })
 
