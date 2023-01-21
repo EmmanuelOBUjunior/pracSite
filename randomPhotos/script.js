@@ -9,7 +9,7 @@ btnEl.addEventListener("click", () =>{
 function createImages() {
 	for (let index = 0; index < noOfImages; index++) {
 		const imgEl = document.createElement("img")
-
+		imgEl.src = ``
 	}
 	
 }
