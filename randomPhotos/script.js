@@ -1,1 +1,1 @@
-const containerEl = document.querySelector(".")
+const containerEl = document.querySelector(".image-container")
