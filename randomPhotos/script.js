@@ -10,6 +10,8 @@ function createImages() {
 	for (let index = 0; index < noOfImages; index++) {
 		const imgEl = document.createElement("img")
 		imgEl.src = `https://picsum.photos/200/300?random=${Math.floor(Math.random()*2000)}`
+
+		containerEl.appendChild(imgEl)
 	}
 	
 }
