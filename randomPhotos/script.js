@@ -1,1 +1,2 @@
-const containerEl = document.querySelector(".image-container")
+const containerEl = document.querySelector(".image-container");
+const btnEl = document.querySelector(".btn");
