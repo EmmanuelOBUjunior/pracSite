@@ -4,3 +4,11 @@ const btnEl = document.querySelector(".btn");
 btnEl.addEventListener("click", () =>{
 	createImages()
 })
+
+
+function createImages() {
+	for (let index = 0; index < noOfImages; index++) {
+	
+	}
+	
+}
