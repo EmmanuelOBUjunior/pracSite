@@ -16,7 +16,7 @@ body{
 }
 
 .image-container{
-	
+	display:flex;
 }
 
 .btn{
