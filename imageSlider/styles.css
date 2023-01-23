@@ -20,5 +20,6 @@ body{
 }
 
 .btn{
-
+	position: absolute;
+	transform: translate();
 }
