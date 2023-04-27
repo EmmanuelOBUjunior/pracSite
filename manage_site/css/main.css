@@ -586,12 +586,20 @@ video {
   margin-top: 6rem;
 }
 
+.-mt-14 {
+  margin-top: -3.5rem;
+}
+
 .flex {
   display: flex;
 }
 
 .hidden {
   display: none;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .max-w-md {
