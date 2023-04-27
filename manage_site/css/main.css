@@ -584,3 +584,9 @@ video {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
+
+@media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+}
