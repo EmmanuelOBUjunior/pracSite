@@ -903,6 +903,7 @@ body{
 .hamburger-bottom{
   position: absolute;
   left: 0;
+  top: 0;
   background-color: #111111;
 }
 
