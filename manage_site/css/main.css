@@ -875,7 +875,7 @@ body{
 }
 
 #cta{
-  background-image: url();
+  background-image: url("../img/bg-simplify-section-desktop.svg");
 }
 
 .hover\:bg-brightRedLight:hover {
