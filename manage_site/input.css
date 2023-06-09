@@ -46,5 +46,5 @@ body{
 }
 
 .hamburger-middle{
-    
+    transform: translateY(7px);
 }

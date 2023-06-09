@@ -910,6 +910,7 @@ body{
 }
 
 .hamburger-middle{
+  transform: translateY(7px);
 }
 
 .hover\:bg-brightRedLight:hover {
