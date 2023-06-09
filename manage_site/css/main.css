@@ -901,6 +901,8 @@ body{
 .hamburger-top,
 .hamburger-middle,
 .hamburger-bottom{
+  left: 0;
+  background-color: #111111;
 }
 
 .hover\:bg-brightRedLight:hover {
