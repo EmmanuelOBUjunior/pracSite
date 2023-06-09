@@ -879,7 +879,7 @@ body{
   background-repeat: no-repeat;
 }
 
-@media(max-width: 576px){
+@media(max-width: 600px){
   body{
     background-position: 50px -50px;
     background-size: 500px;
