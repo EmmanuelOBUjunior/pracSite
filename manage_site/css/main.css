@@ -911,6 +911,7 @@ body{
 
 .hamburger-middle{
   transform: translateY(7px);
+  transform: translateY(14px);
 }
 
 .hover\:bg-brightRedLight:hover {
