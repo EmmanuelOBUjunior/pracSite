@@ -893,6 +893,7 @@ body{
 .hamburger{
   cursor: pointer;
   width: 24px;
+  height: 24px;
 }
 
 .hover\:bg-brightRedLight:hover {
