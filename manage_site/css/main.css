@@ -871,6 +871,7 @@ body{
   background-image: url("../img/bg-tablet-pattern.svg");
   background-repeat: no-repeat;
   background-position: 90% -20%;
+  background-size: 800px;
 }
 
 .hover\:bg-brightRedLight:hover {
