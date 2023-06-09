@@ -30,8 +30,8 @@ body{
     cursor: pointer;
     width: 24px;
     height: 24px;
-    position: relative;
     transition: all 0.25s;
+    position: relative;
 }
 
 .hamburger-top,
