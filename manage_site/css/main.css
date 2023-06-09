@@ -894,6 +894,7 @@ body{
   cursor: pointer;
   width: 24px;
   height: 24px;
+  position: relative;
 }
 
 .hover\:bg-brightRedLight:hover {
