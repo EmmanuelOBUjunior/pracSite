@@ -28,4 +28,5 @@ body{
 
 .hamburger{
     cursor: pointer;
+    width: 24px
 }
