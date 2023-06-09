@@ -17,6 +17,6 @@ body{
 
 @media(max-width: 576px){
     body{
-        
+        background-position: 50px -50px;
     }
 }
