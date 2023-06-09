@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 
-
-bs
+body{
+    background-image: url("../img/bg-tablet-pattern.svg");
+}
