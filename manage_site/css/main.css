@@ -880,6 +880,8 @@ body{
 }
 
 @media(max-width: 576px){
+  body{
+  }
 }
 
 .hover\:bg-brightRedLight:hover {
