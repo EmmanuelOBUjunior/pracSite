@@ -884,6 +884,9 @@ body{
     background-position: 50px -50px;
     background-size: 500px;
   }
+
+  #cta{
+  }
 }
 
 .hover\:bg-brightRedLight:hover {
