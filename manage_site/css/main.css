@@ -868,7 +868,7 @@ video {
 }
 
 body{
-  background-image: url("../img/bg-tablet-pattern.svg");
+  background-image: url("./img/bg-tablet-pattern.svg");
 }
 
 .hover\:bg-brightRedLight:hover {
