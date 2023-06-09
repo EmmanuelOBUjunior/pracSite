@@ -886,7 +886,7 @@ body{
   }
 
   #cta{
-    background-image: url("./img/bg-simplify-section-mobile.svg")
+    background-image: url("../img/bg-simplify-section-mobile.svg");
   }
 }
 
