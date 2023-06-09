@@ -870,6 +870,7 @@ video {
 body{
   background-image: url("../img/bg-tablet-pattern.svg");
   background-repeat: no-repeat;
+  background-position: 90% -20%;
 }
 
 .hover\:bg-brightRedLight:hover {
