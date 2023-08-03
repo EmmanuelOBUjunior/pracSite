@@ -13,7 +13,12 @@ function App() {
     </form>
     <h1 className="header">Todo List</h1>
     <ul className='list'>
-      <li></li>
+      <li>
+        <label>
+          <input type="checkbox" /> Item 1
+        </label>
+        <button className="btn btn-danger">Delete</button>
+      </li>
     </ul>
     </>
   )
