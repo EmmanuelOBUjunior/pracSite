@@ -9,7 +9,11 @@ function App() {
     <form className="new-item-form">
       <div className="form-row">
       <label htmlFor="item">New Item</label>
-      <input type="text" id="item"/>
+      <input
+      value = {newItem}
+      type="text" 
+      id="item"
+      />
       </div>
       <button className="btn">Add Item</button>
     </form>
