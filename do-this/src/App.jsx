@@ -9,7 +9,7 @@ function App() {
     e.preventDefault()
 
     setTodos((currentTodos) =>{
-      return [...currentTodos , {id: crypto.randomUUID(), title: newITem}]
+      return [...currentTodos , {id: crypto.randomUUID(), title: newItem, completed: false}]
     })
   }
 
