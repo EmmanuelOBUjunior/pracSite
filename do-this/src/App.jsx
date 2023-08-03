@@ -3,10 +3,15 @@ import { useState } from 'react'
 
 function App() {
   const [newItem, setNewItem] = useState("")
+  const [todo, setTodo] = useState([])
+
+  const handleSubmit = (e) =>{
+    e.preventDefault()
+  }
 
   return (
     <>
-    <form className="new-item-form">
+    <form onSubmit = {handleSubmit()} className="new-item-form">
       <div className="form-row">
       <label htmlFor="item">New Item</label>
       <input
