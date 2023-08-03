@@ -11,13 +11,14 @@ function App() {
       <label htmlFor="item">New Item</label>
       <input
       value = {newItem}
+      onChange={e => setNewItem(e.target.value) }
       type="text" 
       id="item"
       />
       </div>
       <button className="btn">Add Item</button>
     </form>
-    <h1 className="header">Todo List</h1>
+    <h1 className="header">Do This Dude</h1>
     <ul className='list'>
       <li>
         <label>
