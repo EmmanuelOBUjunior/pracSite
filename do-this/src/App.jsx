@@ -16,6 +16,10 @@ function App() {
 
   console.log(todos)
 
+  function togglecheck(){
+
+  }
+
   return (
     <>
     <form onSubmit = {handleSubmit} className="new-item-form">
@@ -36,7 +40,7 @@ function App() {
         return(
         <li key={todo.id}>
         <label>
-          <input onClick = {togglecheck()} type="checkbox" /> {todo.title}
+          <input onChange={e => togglecheck(todo.id, e.target.completed)} type="checkbox" /> {todo.title}
         </label>
         <button className="btn btn-danger">Delete</button>
       </li>)
