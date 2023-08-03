@@ -17,8 +17,8 @@ function App() {
   console.log(todos)
 
   function togglecheck(id, completed){
-    setTodos((currenttodos) =>{
-      
+    setTodos(currentTodos =>{
+      return 
     })
   }
 
