@@ -16,7 +16,7 @@ function App() {
 
   console.log(todos)
 
-  function togglecheck(id, completed){
+  function toggleCheck(id, completed){
     setTodos(currentTodos =>{
       return currentTodos.map(todo =>{
         if(todo.id === id){
@@ -49,14 +49,15 @@ function App() {
         <label>
           <input 
           checked = {todo.completed} 
-          onChange={e => togglecheck(todo.id, e.target.checked)} 
+          onChange={e => toggleCheck(todo.id, e.target.checked)} 
           type="checkbox" /> 
           {todo.title}
         </label>
         <button className="btn btn-danger">Delete</button>
       </li>)
-      })}
+      })}      
     </ul>
+   
     </>
   )
 }
