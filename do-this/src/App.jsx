@@ -4,7 +4,8 @@ function App() {
 
   return (
     <form className="new-item-form">
-      
+      <div className="form-row"></div>
+      <label htmlFor="item"></label>
     </form>
   )
 }
