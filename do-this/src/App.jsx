@@ -32,19 +32,15 @@ function App() {
     </form>
     <h1 className="header">Do This Dude</h1>
     <ul className='list'>
-      {todos.map(todo)}
-      <li>
+      {todos.map(todo =>{
+        return(
+        <li key={todo.id}>
         <label>
-          <input type="checkbox" /> Item 1
+          <input onClick = {togglecheck()} type="checkbox" /> {todo.title}
         </label>
         <button className="btn btn-danger">Delete</button>
-      </li>
-      <li>
-        <label>
-          <input type="checkbox" /> Item 1
-        </label>
-        <button className="btn btn-danger">Delete</button>
-      </li>
+      </li>)
+      })}
     </ul>
     </>
   )
