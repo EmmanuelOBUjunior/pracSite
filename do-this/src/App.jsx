@@ -18,7 +18,11 @@ function App() {
 
   function togglecheck(id, completed){
     setTodos(currentTodos =>{
-      return 
+      return currentTodos.map(todo =>{
+        if(todo.id === id){
+        return {...todo, completed: completed}
+        }
+      })
     })
   }
 
