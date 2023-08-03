@@ -12,8 +12,9 @@ function App() {
       return [...currentTodos , {id: crypto.randomUUID(), title: newItem, completed: false}]
     })
     setNewItem("")
-    console.log(setTodos)
   }
+
+  console.log(todos)
 
   return (
     <>
@@ -31,6 +32,7 @@ function App() {
     </form>
     <h1 className="header">Do This Dude</h1>
     <ul className='list'>
+      {todos.map(todo)}
       <li>
         <label>
           <input type="checkbox" /> Item 1
