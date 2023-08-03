@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 function App() {
   const [newItem, setNewItem] = useState("")
-  const [todos, setTodo] = useState([])
+  const [todos, setTodos] = useState([])
 
   function handleSubmit(e){
     e.preventDefault()
