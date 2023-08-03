@@ -48,7 +48,7 @@ function App() {
         <label>
           <input 
           checked = {todo.completed} 
-          onChange={e => togglecheck(todo.id, e.target.completed)} 
+          onChange={e => togglecheck(todo.id, e.target.checked)} 
           type="checkbox" /> 
           {todo.title}
         </label>
