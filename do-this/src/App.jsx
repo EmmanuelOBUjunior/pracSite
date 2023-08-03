@@ -16,8 +16,10 @@ function App() {
 
   console.log(todos)
 
-  function togglecheck(){
-
+  function togglecheck(id, completed){
+    setTodos((currenttodos) =>{
+      
+    })
   }
 
   return (
