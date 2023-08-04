@@ -5,6 +5,10 @@ function App() {
   const [newItem, setNewItem] = useState("")
   const [todos, setTodos] = useState([])
 
+  useEffect(() =>{
+    localStorage.setItem('todos', JSON.stringify(todos))
+  }, [todos])
+
   function handleSubmit(e){
     e.preventDefault()
 
