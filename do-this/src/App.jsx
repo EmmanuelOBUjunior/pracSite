@@ -7,7 +7,7 @@ function App() {
     const localValue = localStorage.getItem("todos")
     if (localValue === null) return []
 
-    return 
+    return JSON.parse(localValue)
   })
 
   useEffect(() =>{
