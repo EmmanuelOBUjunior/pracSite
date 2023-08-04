@@ -1,5 +1,5 @@
 import './styles.css'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 function App() {
   const [newItem, setNewItem] = useState("")
@@ -50,6 +50,7 @@ function App() {
     </form>
     <h1 className="header">Do This Dude</h1>
     <ul className='list'>
+      {todos.length === 0 && "No Todos"}
       {todos.map(todo =>{
         return(
         <li key={todo.id}>
@@ -65,7 +66,8 @@ function App() {
         className="btn btn-danger">
           Delete
           </button>
-      </li>)
+      </li>
+      )
       })}      
     </ul>
    
