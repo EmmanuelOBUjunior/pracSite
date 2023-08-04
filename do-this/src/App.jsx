@@ -23,7 +23,6 @@ function App() {
     setNewItem("")
   }
 
-  console.log(todos)
 
   function toggleCheck(id, completed){
     setTodos(currentTodos =>{
