@@ -111,7 +111,7 @@ body {
   position: absolute;
 }
 
-.list li label::before {
+.list li label::after {
   content: "";
   display: block;
   width: 0.9rem;
