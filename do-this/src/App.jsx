@@ -60,12 +60,13 @@ function App() {
       {todos.map(todo =>{
         return(
         <li key={todo.id}>
-
+        <label>
           <input 
           checked = {todo.completed} 
           onChange={e => toggleCheck(todo.id, e.target.checked)} 
           type="checkbox" /> 
           {todo.title}
+        </label>
         <button
         onClick={() => deleteTodo(todo.id)} 
         className="btn btn-danger">
