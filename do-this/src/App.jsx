@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 
 function App() {
   const [newItem, setNewItem] = useState("")
-  const [todos, setTodos] = useState([])
+  const [todos, setTodos] = useState()
 
   useEffect(() =>{
     localStorage.setItem('todos', JSON.stringify(todos))
