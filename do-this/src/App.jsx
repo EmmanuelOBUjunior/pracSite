@@ -16,7 +16,6 @@ function App() {
 
   function handleSubmit(e){
     e.preventDefault()
-
     setTodos((currentTodos) =>{
       return [...currentTodos , {id: crypto.randomUUID(), title: newItem, completed: false}]
     })
@@ -30,7 +29,6 @@ function App() {
         if(todo.id === id){
         return {...todo, completed}
         }
-        console.log(todo.title, todo.completed)
         return todo
       })
     })
