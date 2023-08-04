@@ -127,7 +127,7 @@ body {
   background: hsl(200, 100%, 80%);
 }
 
-.list li:has(input:checked) label::after {
+.list li:has(input:checked) label::before {
   content: "✔";
   background: hsl(200, 100%, 40%);
   color: hsl(200, 100%, 90%);
