@@ -2,9 +2,10 @@ import './App.css';
 
 const App = () =>{
   const name = "Developer"
+  const isShowing = true;
   return (
     <div className="App">
-      <h1>Hello, {name}</h1>
+      <h1>Hello, {isShowing ? name : "Unknown"}</h1>
     </div>
   );
 }
