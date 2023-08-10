@@ -18,6 +18,8 @@ const App = () =>{
     <div className="App">
       <Person
       firstName= "Emmanuel Junior"
+      lastName= "Obu"
+      Age={25}
       />
     </div>
   );
