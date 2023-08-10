@@ -17,7 +17,7 @@ const App = () =>{
   return (
     <div className="App">
       <Person
-      
+      firstName= "Emmanuel Junior"
       />
     </div>
   );
