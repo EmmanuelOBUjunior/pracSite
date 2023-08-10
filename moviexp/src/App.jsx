@@ -3,7 +3,7 @@ import {useState} from 'react'
 
 
 const App = () =>{
-  const [counter] = useState(0)
+  const [counter, setCounter] = useState(0)
   return (
     <div className="App">
      <button>-</button>
