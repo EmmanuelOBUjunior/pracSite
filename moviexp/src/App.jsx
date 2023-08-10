@@ -7,7 +7,7 @@ const App = () =>{
   return (
     <div className="App">
      <button>-</button>
-     <h1>0</h1>
+     <h1>{counter}</h1>
      <button>+</button>
     </div>
   );
