@@ -4,8 +4,8 @@ import './App.css';
 const Person = ({firstName, LastName, Age}) =>{
   return(
     <>
-    <h1>Name: Name</h1>
-    <h2>Last Name: LastName</h2>
+    <h1>First Name: {firstName}</h1>
+    <h2>Last Name: {lastName}</h2>
     <h2>Age: Age</h2>
     </>
   )
@@ -16,7 +16,9 @@ const Person = ({firstName, LastName, Age}) =>{
 const App = () =>{
   return (
     <div className="App">
-      <Person/>
+      <Person
+      
+      />
     </div>
   );
 }
