@@ -1,7 +1,7 @@
 import './App.css';
 
 const App = () =>{
-  const name = "Develoiper"
+  const name = "Developer"
   return (
     <div className="App">
       <h1>Hello, {name}</h1>
