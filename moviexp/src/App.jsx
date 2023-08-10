@@ -6,7 +6,7 @@ const App = () =>{
   const [counter, setCounter] = useState(0)
   return (
     <div className="App">
-     <button>-</button>
+     <button onClick={() => setCounter((prevCount)=>)}>-</button>
      <h1>{counter}</h1>
      <button>+</button>
     </div>
