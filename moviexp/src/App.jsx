@@ -16,11 +16,7 @@ const Person = ({firstName, lastName, Age}) =>{
 const App = () =>{
   return (
     <div className="App">
-      <Person
-      firstName= "Emmanuel Junior"
-      lastName= "Obu"
-      Age={25}
-      />
+     
     </div>
   );
 }
