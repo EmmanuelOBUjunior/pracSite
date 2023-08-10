@@ -6,6 +6,13 @@ const App = () =>{
   return (
     <div className="App">
       <h1>Hello, {isShowing ? name : "Unknown"}</h1>
+      {name ? 
+      <>
+      Hello, {name}
+      </>:
+      <>
+      Hello, Unknown
+      </>}
     </div>
   );
 }
