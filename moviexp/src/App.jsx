@@ -53,16 +53,16 @@ const App = () =>{
 
                 {
                     movies?.length > 0 ? (
-                        
-                    )
-                }
-
-                <MovieCard
+                        <MovieCard
                 Type={movie1.Type}
                 Title={movie1.Title}
                 Poster={movie1.Poster}
                 Year={movie1.Year}
                 />
+                    )
+                }
+
+                
             </div>
 
         </div>
