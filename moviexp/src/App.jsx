@@ -33,7 +33,7 @@ const App = () =>{
             <div className="search">
                 <input 
                 value = {searchTerm}
-                onChange={()=>{}}
+                onChange={(e)=>{setSearchTerm(e.target.value)}}
                 placeholder='Search For Movie' />
                 <img 
                 src={SearchIcon} 
