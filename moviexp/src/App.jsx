@@ -49,12 +49,16 @@ const App = () =>{
             </div>
 
             <div className="container">
+
+                {
+                    
+                }
+
                 <MovieCard
                 Type={movie1.Type}
                 Title={movie1.Title}
                 Poster={movie1.Poster}
                 Year={movie1.Year}
-                
                 />
             </div>
 
