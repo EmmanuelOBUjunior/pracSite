@@ -53,17 +53,21 @@ const App = () =>{
 
                 {
                     movies?.length > 0 ? (
-                        <MovieCard
-                Type={movie1.Type}
-                Title={movie1.Title}
-                Poster={movie1.Poster}
-                Year={movie1.Year}
+                        movies.map(movie = (key) =>{
+                <MovieCard
+                key={key}
+                Type={movie.Type}
+                Title={movie.Title}
+                Poster={movie.Poster}
+                Year={movie.Year}
                 />
-                    ):(
+                }
+                        
+                    ):({
                         <div className='empty'>
                             <h3>Movie Not Found</h3>
                         </div>
-                    )
+                    })
                 }
 
                 
