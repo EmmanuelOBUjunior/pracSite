@@ -8,6 +8,13 @@ const App = () =>{
   const changeCount=()=>{
     setCounter((prevCount) => prevCount -1)
   } 
+
+  useEffect({
+    alert("You have changed the counter to " + counter)
+  }, [counter])
+
+
+
   return (
     <div className="App">
      <button onClick={changeCount}>-</button>
