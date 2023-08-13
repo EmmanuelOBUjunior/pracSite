@@ -49,7 +49,10 @@ const App = () =>{
             </div>
 
             <div className="container">
-                <MovieCard/>
+                <MovieCard
+                Type={movie1.Type}
+                
+                />
             </div>
 
         </div>
