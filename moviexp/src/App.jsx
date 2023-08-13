@@ -50,6 +50,8 @@ const App = () =>{
             <div className="container">
                 <div className="movie">
                     <p>{movie1.Year}</p>
+
+                    <img src={movie1.Poster} alt={movie1.Title} />
                 </div>
             </div>
 
