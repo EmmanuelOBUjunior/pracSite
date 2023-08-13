@@ -9,7 +9,7 @@ const App = () =>{
     setCounter((prevCount) => prevCount -1)
   } 
 
-  useEffect({
+  useEffect(()=>{
     alert("You have changed the counter to " + counter)
   }, [counter])
 
