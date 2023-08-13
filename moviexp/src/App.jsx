@@ -9,7 +9,8 @@ const App = () =>{
         const data = response.json()
 
 
-        console.log(typeof(data.Search))
+        console.log(typeof(data))
+        console.log(data.Search)
     }
 
     useEffect(()=>{
