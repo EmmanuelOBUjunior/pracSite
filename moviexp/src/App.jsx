@@ -52,7 +52,7 @@ const App = () =>{
                 <MovieCard
                 Type={movie1.Type}
                 Title={movie1.Title}
-                Poster={movie1.Type}
+                Poster={movie1.Poster}
                 
                 />
             </div>
