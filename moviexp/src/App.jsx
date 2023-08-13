@@ -57,7 +57,7 @@ const App = () =>{
                 Type={movie1.Type}
                 Title={movie1.Title}
                 Poster={movie1.Poster}
-                Year={movie.Year}
+                Year={movie1.Year}
                 />
                         
                     ):(
