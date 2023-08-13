@@ -1,7 +1,7 @@
 //29220acb
 import {useEffect} from 'react'
 
-const API_URL = 'https://www.omdbapi.com?apikey=29220acb'
+const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=29220acb'
 const App = () =>{
    
     const searchMovies = async(title)=>{
@@ -9,7 +9,7 @@ const App = () =>{
         const data = response.json()
 
 
-        console.log(typeof(data))
+        console.log(typeof(data.Search))
     }
 
     useEffect(()=>{
