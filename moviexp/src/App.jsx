@@ -61,7 +61,7 @@ const App = () =>{
                 />
                     ):(
                         <div className='empty'>
-                            
+                            <h3>Movie Not Found</h3>
                         </div>
                     )
                 }
