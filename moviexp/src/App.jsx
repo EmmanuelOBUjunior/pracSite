@@ -57,7 +57,7 @@ const App = () =>{
                     {movies.map((movie)=>(
                         <MovieCard
                         Type={movie.Type}
-                        Title={movie1.Title}
+                        Title={movie.Title}
                         Poster={movie1.Poster}
                         Year={movie1.Year}
                         />   
