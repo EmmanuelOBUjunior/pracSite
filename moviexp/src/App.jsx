@@ -11,7 +11,7 @@ const App = () =>{
 
   useEffect(()=>{
     setCounter(100)
-  }, [counter])
+  }, [])
 
 
 
