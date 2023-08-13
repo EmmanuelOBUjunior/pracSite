@@ -25,7 +25,7 @@ const App = () =>{
 
 
         data.then(function(result){
-            console.log(result)
+            setMovies(result.Search)
         })
     }
 
@@ -52,7 +52,9 @@ const App = () =>{
             <div className="container">
 
                 {
-                    console.log(movies.length)
+                    movies?.length > 0 ? (
+                        
+                    )
                 }
 
                 <MovieCard
