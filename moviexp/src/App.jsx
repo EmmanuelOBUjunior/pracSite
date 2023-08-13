@@ -3,6 +3,10 @@ import {useEffect} from 'react'
 
 
 const App = () =>{
+   
+    useEffect(()=>{
+
+    }, [])
     return(
         <h1>App</h1>
     )
