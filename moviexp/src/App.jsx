@@ -11,8 +11,9 @@ const App = () =>{
         const data = response.json()
 
 
-        console.log(typeof(data))
-        console.log(data)
+        data.then(function(result){
+            console.log(result)
+        })
     }
 
     useEffect(()=>{
