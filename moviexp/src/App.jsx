@@ -46,6 +46,13 @@ const App = () =>{
                 onClick={()=>{}}
                 />
             </div>
+
+            <div className="container">
+                <div className="movie">
+                    <p>{movie1.Year}</p>
+                </div>
+            </div>
+
         </div>
     )
 }
