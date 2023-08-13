@@ -27,7 +27,11 @@ const App = () =>{
 
             <div className="search">
                 <input placeholder='Search For Movie' />
-                <img src={SearchIcon} alt="Search" />
+                <img 
+                src={SearchIcon} 
+                alt="Search" 
+                onClick={()=>{}}
+                />
             </div>
         </div>
     )
