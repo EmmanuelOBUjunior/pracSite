@@ -53,6 +53,7 @@ const App = () =>{
                 Type={movie1.Type}
                 Title={movie1.Title}
                 Poster={movie1.Poster}
+                Year={}
                 
                 />
             </div>
