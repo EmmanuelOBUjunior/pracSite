@@ -56,7 +56,7 @@ const App = () =>{
                 <div className="container">
                     {movies.map((movie)=>(
                         <MovieCard
-                        Type={movie1.Type}
+                        Type={movie.Type}
                         Title={movie1.Title}
                         Poster={movie1.Poster}
                         Year={movie1.Year}
