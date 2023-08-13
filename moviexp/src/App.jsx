@@ -13,7 +13,7 @@ const App = () =>{
     }
 
     useEffect(()=>{
-        searchMovies('Superman')
+        searchMovies('Spiderman')
     }, [])
 
     return(
