@@ -26,7 +26,10 @@ const App = () =>{
             <h1>MoviExp</h1>
 
             <div className="search">
-                <input placeholder='Search For Movie' />
+                <input 
+                value = "Superman"
+                onChange={()=>{}}
+                placeholder='Search For Movie' />
                 <img 
                 src={SearchIcon} 
                 alt="Search" 
