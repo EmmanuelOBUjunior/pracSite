@@ -51,8 +51,8 @@ const App = () =>{
             <div className="container">
                 <MovieCard
                 Type={movie1.Type}
-                Title={movie1.Type}
-                Type={movie1.Type}
+                Title={movie1.Title}
+                Poster={movie1.Type}
                 
                 />
             </div>
