@@ -1,6 +1,7 @@
 //29220acb
 import {useEffect} from 'react'
 import './App.css'
+import SearchIcon from './search.svg'
 
 
 const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=29220acb'
