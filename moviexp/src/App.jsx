@@ -10,7 +10,7 @@ const App = () =>{
   } 
 
   useEffect(()=>{
-    alert("You have changed the counter to " + counter)
+    setCounter(100)
   }, [counter])
 
 
