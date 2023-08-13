@@ -58,7 +58,7 @@ const App = () =>{
                         <MovieCard
                         Type={movie.Type}
                         Title={movie.Title}
-                        Poster={movie1.Poster}
+                        Poster={movie.Poster}
                         Year={movie1.Year}
                         />   
                     ))}              
