@@ -49,9 +49,12 @@ const App = () =>{
 
             <div className="container">
                 <div className="movie">
-                    <p>{movie1.Year}</p>
-
+                    <div>
+                        <p>{movie1.Year}</p>
+                    </div>
+                    <div>
                     <img src={movie1.Poster} alt={movie1.Title} />
+                    </div>
                 </div>
             </div>
 
