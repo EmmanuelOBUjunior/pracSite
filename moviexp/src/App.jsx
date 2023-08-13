@@ -59,6 +59,10 @@ const App = () =>{
                 Poster={movie1.Poster}
                 Year={movie1.Year}
                 />
+                    ):(
+                        <div className='empty'>
+                            
+                        </div>
                     )
                 }
 
