@@ -52,7 +52,7 @@ const App = () =>{
             <div className="container">
 
                 {
-
+                    console.log(movies.length)
                 }
 
                 <MovieCard
