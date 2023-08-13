@@ -5,6 +5,11 @@ import SearchIcon from './search.svg'
 
 
 const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=29220acb'
+
+const movie1 = {
+    
+}
+
 const App = () =>{
    
     const searchMovies = async(title)=>{
