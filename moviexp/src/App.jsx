@@ -49,26 +49,27 @@ const App = () =>{
                 />
             </div>
 
-            <div className="container">
+            
+            {
+            movies?.length > 0 ? (
 
-                {
-                    movies?.length > 0 ? (
-                <MovieCard
-                Type={movie1.Type}
-                Title={movie1.Title}
-                Poster={movie1.Poster}
-                Year={movie1.Year}
-                />
-                        
+                <div className="container">
+                    <MovieCard
+                    Type={movie1.Type}
+                    Title={movie1.Title}
+                    Poster={movie1.Poster}
+                    Year={movie1.Year}
+                    />
+                                    
                     ):(
                         <div className='empty'>
                             <h3>Movie Not Found</h3>
                         </div>
                 )
-                }
+                </div>
+}
 
-                
-            </div>
+            
 
         </div>
     )
