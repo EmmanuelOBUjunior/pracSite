@@ -1,5 +1,7 @@
 //29220acb
 import {useEffect} from 'react'
+import './App.css'
+
 
 const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=29220acb'
 const App = () =>{
@@ -10,7 +12,7 @@ const App = () =>{
 
 
         console.log(typeof(data))
-        console.log(data.Search)
+        console.log(data)
     }
 
     useEffect(()=>{
