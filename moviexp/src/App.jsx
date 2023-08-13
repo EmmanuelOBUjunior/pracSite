@@ -1,5 +1,5 @@
 //29220acb
-import {useEffect} from 'react'
+import {useEffect, useState} from 'react'
 import './App.css'
 import SearchIcon from './search.svg'
 import MovieCard from './MovieCard'
@@ -17,6 +17,7 @@ const movie1 =
     }
 
 const App = () =>{
+    const [movies, setMovies] = useState([])
    
     const searchMovies = async(title)=>{
         const response = await fetch(`${API_URL}&s=${title}`)
@@ -51,7 +52,7 @@ const App = () =>{
             <div className="container">
 
                 {
-                    
+
                 }
 
                 <MovieCard
